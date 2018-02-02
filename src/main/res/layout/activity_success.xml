@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context="com.example.hp.selfsecurity.Success">
+
+    <!-- Name Label -->
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginTop="40dip"
+        android:layout_marginBottom="10dip"/>
+
+    <!-- Email Label
+    <TextView
+        android:id="@+id/lblEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginBottom="40dip"/>-->
+
+    <Button
+        android:id="@+id/bEmerContacts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openEmerContacts"
+        android:text="Emergency Contacts" />
+
+    <Button
+        android:id="@+id/bSendlocation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openSendLoc"
+        android:text="Send Location" />
+
+    <Button
+        android:id="@+id/bRecord"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openRecord"
+        android:text="Record Background Sound" />
+
+    <Button
+        android:id="@+id/bAlarm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Alarm"
+        />
+
+
+    <Button
+        android:id="@+id/bLogout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openLogout"
+        android:text="Logout" />
+
+</LinearLayout>

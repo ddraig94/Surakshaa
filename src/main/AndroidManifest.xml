@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.selfsecurity" >
+
+    <uses-sdk android:minSdkVersion="4" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.hp.selfsecurity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.hp.selfsecurity.SignUPActivity" />
+        <activity
+            android:name="com.example.hp.selfsecurity.Success"
+            android:label="@string/title_activity_success" >
+        </activity>
+        <activity
+            android:name="com.example.hp.selfsecurity.AddContacts"
+            android:label="@string/title_activity_add_contacts" >
+        </activity>
+        <activity
+            android:name="com.example.hp.selfsecurity.sendLocation"
+            android:label="@string/title_activity_send_location" >
+        </activity>
+        <activity
+            android:name="com.example.hp.selfsecurity.Record"
+            android:label="@string/title_activity_record" >
+        </activity>
+        <activity
+            android:name="com.example.hp.selfsecurity.EmergencyContacts"
+            android:label="@string/title_activity_emergency_contacts" >
+        </activity>
+        <activity
+            android:name="com.example.hp.selfsecurity.ViewContacts"
+            android:label="@string/title_activity_view_contacts" >
+        </activity>
+        <activity
+            android:name="com.example.hp.selfsecurity.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+    </application>
+
+</manifest>

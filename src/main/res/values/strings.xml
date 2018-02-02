@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Self Security</string>
+    <string name="Welcome">Welcome</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_success">Success</string>
+    <string name="title_activity_add_contacts">AddContacts</string>
+    <string name="title_activity_send_location">sendLocation</string>
+    <string name="title_activity_record">Record</string>
+    <string name="title_activity_emergency_contacts">EmergencyContacts</string>
+    <string name="title_activity_view_contacts">ViewContacts</string>
+
+</resources>
